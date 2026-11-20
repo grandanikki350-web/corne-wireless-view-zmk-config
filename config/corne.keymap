@@ -86,7 +86,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &trans                &trans           &trans            &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp C_MUTE      &kp C_VOL_DN          &kp C_VOLUME_UP  &kp C_SLEEP_MODE  &kp C_AL_LOCK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &trans            &trans         &trans
-                        &trans  &trans  &trans    &kp RG(PLUS)    &trans                &to 0
+                        &trans  &trans  &trans    &kp RG(PLUS)    &kp RG(MINUS)         &to 0
             >;
         };
     };
