@@ -24,6 +24,52 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mouse {
+            bindings = <&mmv MOVE_Y(300)>;
+            key-positions = <16 19>;
+            layers = <0>;
+        };
+
+        down {
+            bindings = <&mmv (MOVE_Y(-300))>;
+            key-positions = <39 40>;
+            layers = <0>;
+        };
+
+        right {
+            bindings = <&mmv MOVE_X(300)>;
+            key-positions = <41 40>;
+            layers = <0>;
+        };
+
+        l1 {
+            bindings = <&mmv (MOVE_X(-300))>;
+            key-positions = <40 30>;
+            layers = <0>;
+        };
+
+        up {
+            bindings = <&msc MOVE_Y(10)>;
+            key-positions = <23 22>;
+            layers = <0>;
+        };
+
+        down2 {
+            bindings = <&msc (MOVE_Y(-10))>;
+            key-positions = <21 20>;
+            layers = <0>;
+        };
+
+        left {
+            bindings = <&mkp MB1>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
