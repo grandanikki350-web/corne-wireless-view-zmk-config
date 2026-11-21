@@ -101,10 +101,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp F1     &kp F2  &kp F3    &kp F4     &kp F5       &kp F6            &kp F7               &kp F8            &kp F9               &kp F10             &kp LG(BSPC)
-&kp N1     &kp N2     &kp N3  &kp N4    &kp N5     &kp N6       &kp N7            &kp N8               &kp N9            &kp N0               &msc MOVE_Y(20)     &new_macro2
-&kp LSHFT  &kp GLOBE  &kp F   &kp C     &none      &none        &mmv MOVE_X(500)  &mmv (MOVE_Y(-500))  &mmv MOVE_Y(500)  &mmv (MOVE_X(-500))  &msc (MOVE_Y(-20))  &globe
-                              &kp LGUI  &kp LSHFT  &kp SPACE    &kp RET           &mkp LCLK            &to 0
+&kp TAB    &kp F1     &kp F2  &kp F3    &kp F4     &kp F5       &kp F6               &kp F7               &kp F8            &kp F9            &kp F10             &kp LG(BSPC)
+&kp N1     &kp N2     &kp N3  &kp N4    &kp N5     &kp N6       &kp N7               &kp N8               &kp N9            &kp N0            &msc MOVE_Y(20)     &new_macro2
+&kp LSHFT  &kp GLOBE  &kp F   &kp C     &none      &none        &mmv (MOVE_X(-500))  &mmv (MOVE_Y(-500))  &mmv MOVE_Y(500)  &mmv MOVE_X(500)  &msc (MOVE_Y(-20))  &globe
+                              &kp LGUI  &kp LSHFT  &kp SPACE    &kp RET              &mkp LCLK            &to 0
             >;
         };
 
