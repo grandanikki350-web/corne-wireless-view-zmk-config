@@ -18,6 +18,83 @@
             layers = <0>;
             slow-release;
         };
+
+        mouup {
+            bindings = <&msc MOVE_Y(20)>;
+            key-positions = <19>;
+            layers = <0>;
+            slow-release;
+        };
+
+        moudn {
+            bindings = <&msc (MOVE_Y(-20))>;
+            key-positions = <20>;
+            layers = <0>;
+            slow-release;
+        };
+
+        mouleft {
+            bindings = <&msc (MOVE_X(-20))>;
+            key-positions = <21>;
+            layers = <0>;
+            slow-release;
+        };
+
+        mouright {
+            bindings = <&msc MOVE_X(20)>;
+            key-positions = <22>;
+            layers = <0>;
+            slow-release;
+        };
+
+        up {
+            bindings = <&mmv MOVE_UP>;
+            key-positions = <16>;
+            slow-release;
+            layers = <0>;
+        };
+
+        down {
+            bindings = <&mmv MOVE_DOWN>;
+            key-positions = <15>;
+            layers = <0>;
+            slow-release;
+        };
+
+        left {
+            bindings = <&mmv MOVE_LEFT>;
+            key-positions = <14>;
+            layers = <0>;
+            slow-release;
+        };
+
+        right {
+            bindings = <&mmv MOVE_RIGHT>;
+            key-positions = <13>;
+            slow-release;
+            layers = <0>;
+        };
+
+        leftclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <38 37>;
+            layers = <0>;
+            slow-release;
+        };
+
+        rightclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <16 15>;
+            layers = <0>;
+            slow-release;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <16 13>;
+            layers = <0>;
+            slow-release;
+        };
     };
 
     macros {
