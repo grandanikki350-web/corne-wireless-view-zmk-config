@@ -15,14 +15,16 @@
         new_macro2: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp C>;
+            bindings = <&kp GLOBE &kp C>, <&macro_tap>;
+
             label = "NEW_MACRO";
         };
 
         globe: globe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp F>;
+            bindings = <&kp GLOBE &kp F>, <&macro_tap>;
+
             label = "GLOBE";
         };
     };
@@ -55,9 +57,9 @@
 
             display-name = "Lower";
             bindings = <
-&kp LA(UP_ARROW)  &kp LA(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &mkp MCLK     &kp F5           &kp N7               &kp N8               &kp N9            &kp N0            &kp LSHFT        &kp BSPC
-&kp N1            &kp N2         &kp N3              &kp N4               &kp N5        &kp N6           &mkp RCLK            &mmv MOVE_LEFT       &mmv MOVE_DOWN    &mmv MOVE_UP      &mmv MOVE_RIGHT  &msc SCRL_RIGHT
-&kp LG(LEFT)      &kp LG(RIGHT)  &kp LG(UP_ARROW)    &kp LG(DOWN)         &kp LA(LEFT)  &kp LA(RIGHT)    &mmv (MOVE_X(-500))  &mmv (MOVE_Y(-500))  &mmv MOVE_Y(500)  &mmv MOVE_X(500)  &msc SCRL_DOWN   &msc SCRL_LEFT
+&kp LA(UP_ARROW)  &kp LA(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &mkp MCLK     &kp F5           &kp N7               &kp N8               &kp N9            &kp N0           &kp LSHFT           &kp BSPC
+&kp N1            &kp N2         &kp N3              &kp N4               &kp N5        &kp N6           &mkp RCLK            &mmv MOVE_LEFT       &mmv MOVE_DOWN    &mmv MOVE_UP     &mmv MOVE_RIGHT     &msc MOVE_X(20)
+&kp LG(LEFT)      &kp LG(RIGHT)  &kp LG(UP_ARROW)    &kp LG(DOWN)         &kp LA(LEFT)  &kp LA(RIGHT)    &mmv (MOVE_X(-500))  &mmv (MOVE_Y(-500))  &mmv MOVE_Y(500)  &msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))
                                                      &new_macro2          &globe        &kp SPACE        &kp RET              &mkp LCLK            &to 0
             >;
         };
