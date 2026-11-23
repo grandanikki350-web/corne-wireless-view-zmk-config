@@ -20,28 +20,28 @@
         };
 
         mouup {
-            bindings = <&msc MOVE_Y(20)>;
+            bindings = <&msc MOVE_Y(10)>;
             key-positions = <19 39>;
             layers = <0>;
             slow-release;
         };
 
         moudn {
-            bindings = <&msc (MOVE_Y(-20))>;
+            bindings = <&msc (MOVE_Y(-10))>;
             key-positions = <20 21>;
             layers = <0>;
             slow-release;
         };
 
         mouleft {
-            bindings = <&msc (MOVE_X(-20))>;
+            bindings = <&msc (MOVE_X(-10))>;
             key-positions = <21 22>;
             layers = <0>;
             slow-release;
         };
 
         mouright {
-            bindings = <&msc MOVE_X(20)>;
+            bindings = <&msc MOVE_X(10)>;
             key-positions = <22 34>;
             layers = <0>;
             slow-release;
@@ -50,27 +50,6 @@
         up {
             bindings = <&mmv MOVE_UP>;
             key-positions = <16 38>;
-            slow-release;
-            layers = <0>;
-        };
-
-        down {
-            bindings = <&mmv MOVE_DOWN>;
-            key-positions = <15 16>;
-            layers = <0>;
-            slow-release;
-        };
-
-        left {
-            bindings = <&mmv MOVE_LEFT>;
-            key-positions = <14 15>;
-            layers = <0>;
-            slow-release;
-        };
-
-        right {
-            bindings = <&mmv MOVE_RIGHT>;
-            key-positions = <13 14>;
             slow-release;
             layers = <0>;
         };
@@ -84,7 +63,7 @@
 
         rightclick {
             bindings = <&mkp RCLK>;
-            key-positions = <16 15>;
+            key-positions = <16 38>;
             layers = <0>;
             slow-release;
         };
