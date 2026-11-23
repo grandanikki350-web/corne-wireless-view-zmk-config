@@ -19,41 +19,6 @@
             slow-release;
         };
 
-        mouup {
-            bindings = <&msc MOVE_Y(10)>;
-            key-positions = <19 39>;
-            layers = <0>;
-            slow-release;
-        };
-
-        moudn {
-            bindings = <&msc (MOVE_Y(-10))>;
-            key-positions = <20 21>;
-            layers = <0>;
-            slow-release;
-        };
-
-        mouleft {
-            bindings = <&msc (MOVE_X(-10))>;
-            key-positions = <21 22>;
-            layers = <0>;
-            slow-release;
-        };
-
-        mouright {
-            bindings = <&msc MOVE_X(10)>;
-            key-positions = <22 34>;
-            layers = <0>;
-            slow-release;
-        };
-
-        up {
-            bindings = <&mmv MOVE_UP>;
-            key-positions = <16 38>;
-            slow-release;
-            layers = <0>;
-        };
-
         leftclick {
             bindings = <&mkp LCLK>;
             key-positions = <38 37>;
@@ -77,14 +42,14 @@
 
         leftcontrol {
             bindings = <&kp RC(LEFT_ARROW)>;
-            key-positions = <22 10>;
+            key-positions = <40 19>;
             layers = <0>;
             slow-release;
         };
 
         controlright {
             bindings = <&kp RC(RIGHT)>;
-            key-positions = <35 23>;
+            key-positions = <20 40>;
         };
     };
 
