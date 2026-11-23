@@ -35,14 +35,14 @@
             label = "NEW_MACRO";
         };
 
-        globe: new_macro5 {
+        emojis: new_macro5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp GLOBE>,
                 <&macro_tap>,
-                <&kp F>,
+                <&kp E>,
                 <&macro_release>,
                 <&kp GLOBE>;
 
@@ -81,7 +81,7 @@
 &kp LA(UP_ARROW)  &kp LA(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LA(LG(H))  &kp LA(J)          &kp N7         &kp N8          &kp N9          &kp N0           &kp RGUI            &kp BSPC
 &kp N1            &kp N2         &kp N3              &kp N4               &kp N5         &kp N6             &mkp MCLK      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT     &msc MOVE_X(20)
 &kp LG(LEFT)      &kp LG(RIGHT)  &kp LG(UP_ARROW)    &kp LG(DOWN)         &kp LA(LEFT)   &kp LA(RIGHT)      &kp RA(RG(B))  &kp RA(RG(I))   &kp RG(H)       &msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))
-                                                     &new_macro2          &globe         &mt ENTER SPACE    &mkp LCLK      &mkp RCLK       &to 0
+                                                     &new_macro2          &kp LC(LG(F))  &mt ENTER SPACE    &mkp LCLK      &mkp RCLK       &to 0
             >;
         };
 
@@ -96,7 +96,7 @@
             bindings = <
 &kp TAB            &kp EXCL          &kp AT           &kp HASH        &kp DLLR            &kp PRCNT          &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp DOUBLE_QUOTES  &mmv MOVE_LEFT    &mmv MOVE_UP     &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &kp COLON          &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT          &kp LEFT_COMMAND  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc (MOVE_Y(-20))  &msc MOVE_Y(20)    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&emojis            &kp LEFT_COMMAND  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc (MOVE_Y(-20))  &msc MOVE_Y(20)    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                                       &mkp RCLK       &mkp MCLK           &mkp LCLK          &kp RET    &kp SLASH  &to 0
             >;
         };
@@ -105,7 +105,7 @@
             bindings = <
 &kp LG(A)          &kp LG(X)            &kp LG(C)         &kp LS(LG(Z))          &kp LG(Z)           &msc MOVE_Y(15)         &msc SCRL_LEFT    &kp PG_UP             &kp PG_DN        &msc SCRL_RIGHT  &kp RA(RG(T))  &mkp LCLK
 &kp LA(LS(LG(S)))  &kp LG(RIGHT_BRACE)  &kp LA(LG(PIPE))  &kp LG(PIPE)           &kp LG(LEFT_BRACE)  &msc (MOVE_Y(-15))      &kp C_MUTE        &kp C_VOL_DN          &kp C_VOLUME_UP  &kp RA(RG(ESC))  &kp C_AL_LOCK  &kp RG(T)
-&globe             &kp LA(LS(LG(V)))    &kp LG(V)         &kp LG(DOUBLE_QUOTES)  &kp LG(EQUAL)       &kp LG(SINGLE_QUOTE)    &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &kp RG(R)        &kp RS(RG(L))  &kp RG(W)
+&kp LC(LG(F))      &kp LA(LS(LG(V)))    &kp LG(V)         &kp LG(DOUBLE_QUOTES)  &kp LG(EQUAL)       &kp LG(SINGLE_QUOTE)    &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &kp RG(R)        &kp RS(RG(L))  &kp RG(W)
                                                           &kp LA(LG(E))          &kp LA(LG(N))       &kp LG(N)               &kp RG(PLUS)      &kp RG(MINUS)         &to 0
             >;
         };
