@@ -21,56 +21,56 @@
 
         mouup {
             bindings = <&msc MOVE_Y(20)>;
-            key-positions = <19>;
+            key-positions = <19 39>;
             layers = <0>;
             slow-release;
         };
 
         moudn {
             bindings = <&msc (MOVE_Y(-20))>;
-            key-positions = <20>;
+            key-positions = <20 21>;
             layers = <0>;
             slow-release;
         };
 
         mouleft {
             bindings = <&msc (MOVE_X(-20))>;
-            key-positions = <21>;
+            key-positions = <21 22>;
             layers = <0>;
             slow-release;
         };
 
         mouright {
             bindings = <&msc MOVE_X(20)>;
-            key-positions = <22>;
+            key-positions = <22 34>;
             layers = <0>;
             slow-release;
         };
 
         up {
             bindings = <&mmv MOVE_UP>;
-            key-positions = <16>;
+            key-positions = <16 38>;
             slow-release;
             layers = <0>;
         };
 
         down {
             bindings = <&mmv MOVE_DOWN>;
-            key-positions = <15>;
+            key-positions = <15 16>;
             layers = <0>;
             slow-release;
         };
 
         left {
             bindings = <&mmv MOVE_LEFT>;
-            key-positions = <14>;
+            key-positions = <14 15>;
             layers = <0>;
             slow-release;
         };
 
         right {
             bindings = <&mmv MOVE_RIGHT>;
-            key-positions = <13>;
+            key-positions = <13 14>;
             slow-release;
             layers = <0>;
         };
@@ -94,6 +94,18 @@
             key-positions = <16 13>;
             layers = <0>;
             slow-release;
+        };
+
+        leftcontrol {
+            bindings = <&kp RC(LEFT_ARROW)>;
+            key-positions = <22 10>;
+            layers = <0>;
+            slow-release;
+        };
+
+        controlright {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <35 23>;
         };
     };
 
