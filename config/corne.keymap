@@ -12,13 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        caps {
-            bindings = <&kt CAPS>;
-            key-positions = <39 40>;
-            layers = <0>;
-            slow-release;
-        };
-
         leftclick {
             bindings = <&mkp LCLK>;
             key-positions = <38 37>;
