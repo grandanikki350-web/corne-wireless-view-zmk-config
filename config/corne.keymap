@@ -145,7 +145,7 @@
 
         layer_5 {
             bindings = <
-&kp TAB        &kp P         &kp O    &kp I      &kp U     &kp Y              &kp T    &kp R                &kp E  &kp W  &kp Q  &mt DOUBLE_QUOTES SQT
+&kp TAB        &kp P         &kp O    &kp I      &kp U     &kp Y              &kp T    &kp R                &kp E  &kp W  &kp Q  &mt DOUBLE_QUOTES PERIOD
 &kp APOS       &kp SEMI      &kp L    &kp K      &kp J     &kp H              &kp G    &kp F                &kp D  &kp S  &kp A  &kp QUESTION
 &kp LG(SPACE)  &kp QUESTION  &kp DOT  &kp COMMA  &kp M     &kp N              &kp B    &kp V                &kp C  &kp X  &kp Z  &kp COMMA
                                       &to 0      &kp BSPC  &mt ENTER SPACE    &kp ESC  &mt BACKSPACE SPACE  &to 0
