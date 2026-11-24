@@ -68,14 +68,14 @@
             label = "NEW_MACRO";
         };
 
-        emojis: new_macro5 {
+        fullscreen: new_macro5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
                 <&kp GLOBE>,
                 <&macro_tap>,
-                <&kp E>,
+                <&kp F>,
                 <&macro_release>,
                 <&kp GLOBE>;
 
@@ -95,10 +95,10 @@
 
             display-name = "Base";
             bindings = <
-&to 3    &kp Q  &kp W  &kp E              &kp R  &kp T         &kp Y            &kp U          &kp I      &kp O    &kp P         &to 4
-&to 4    &kp A  &kp S  &kp D              &kp F  &kp G         &kp H            &kp J          &kp K      &kp L    &kp SEMI      &mt RIGHT_SHIFT SQT
-&kp TAB  &kp Z  &kp X  &kp C              &kp V  &kp B         &kp N            &kp M          &kp COMMA  &kp DOT  &kp QUESTION  &kp RG(SPACE)
-                       &mt (GLOBE) LG(Q)  &to 2  &kp ESCAPE    &mt ENTER SPACE  &kp BACKSPACE  &to 1
+&to 3         &kp Q  &kp W  &kp E              &kp R  &kp T           &kp Y            &kp U          &kp I      &kp O    &kp P         &to 4
+&to 4         &kp A  &kp S  &kp D              &kp F  &kp G           &kp H            &kp J          &kp K      &kp L    &kp SEMI      &mt RIGHT_SHIFT SQT
+&mt CLCK TAB  &kp Z  &kp X  &kp C              &kp V  &kp B           &kp N            &kp M          &kp COMMA  &kp DOT  &kp QUESTION  &kp RG(SPACE)
+                            &mt (GLOBE) LG(Q)  &to 2  &mt LGUI ESC    &mt ENTER SPACE  &kp BACKSPACE  &to 1
             >;
         };
 
@@ -114,7 +114,7 @@
 &kp LA(UP_ARROW)  &kp LA(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LA(LG(H))  &kp LA(J)          &kp N7         &kp N8          &kp N9          &kp N0           &kp RGUI            &kp BSPC
 &kp N1            &kp N2         &kp N3              &kp N4               &kp N5         &kp N6             &mkp MCLK      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT     &msc MOVE_X(20)
 &kp LG(LEFT)      &kp LG(RIGHT)  &kp LG(UP_ARROW)    &kp LG(DOWN)         &kp LA(LEFT)   &kp LA(RIGHT)      &kp RA(RG(B))  &kp RA(RG(I))   &kp RG(H)       &msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))
-                                                     &new_macro2          &kp LC(LG(F))  &mt ENTER SPACE    &mkp LCLK      &mkp RCLK       &to 0
+                                                     &new_macro2          &fullscreen    &mt ENTER SPACE    &mkp LCLK      &mkp RCLK       &to 0
             >;
         };
 
@@ -127,10 +127,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB            &kp EXCL          &kp AT           &kp HASH        &kp DLLR            &kp PRCNT          &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp DOUBLE_QUOTES  &mmv MOVE_LEFT    &mmv MOVE_UP     &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &kp COLON          &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&emojis            &kp LEFT_COMMAND  &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc (MOVE_Y(-20))  &msc MOVE_Y(20)    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                                      &mkp RCLK       &mkp MCLK           &mkp LCLK          &kp RET    &kp SLASH  &to 0
+&kp TAB            &kp EXCL        &kp AT           &kp HASH        &kp DLLR            &kp PRCNT          &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp DOUBLE_QUOTES  &mmv MOVE_LEFT  &mmv MOVE_UP     &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &kp COLON          &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
+&fullscreen        &kp LG(F)       &msc SCRL_RIGHT  &msc SCRL_LEFT  &msc (MOVE_Y(-20))  &msc MOVE_Y(20)    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+                                                    &mkp RCLK       &mkp MCLK           &mkp LCLK          &kp RET    &kp SLASH  &to 0
             >;
         };
 
