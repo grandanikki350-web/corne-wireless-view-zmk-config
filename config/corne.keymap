@@ -130,7 +130,7 @@
         layer_6 {
             bindings = <
 &kp LG(A)          &kp LG(X)            &kp LG(C)         &kp LS(LG(Z))          &kp LG(Z)           &msc MOVE_Y(15)         &msc SCRL_LEFT    &kp PG_UP             &kp PG_DN        &msc SCRL_RIGHT  &mt (RS(RG(T))) RA(RG(T))  &mkp LCLK
-&kp LA(LS(LG(S)))  &kp LG(RIGHT_BRACE)  &kp LA(LG(PIPE))  &kp LG(PIPE)           &kp LG(LEFT_BRACE)  &msc (MOVE_Y(-15))      &kp C_MUTE        &kp C_VOL_DN          &kp C_VOLUME_UP  &kp RA(RG(ESC))  &kp C_AL_LOCK              &kp RG(T)
+&kp LA(LS(LG(S)))  &kp LG(RIGHT_BRACE)  &kp LA(LG(PIPE))  &kp LG(PIPE)           &kp LG(LEFT_BRACE)  &msc (MOVE_Y(-15))      &kp C_MUTE        &kp C_VOL_DN          &kp C_VOLUME_UP  &kp RA(RG(ESC))  &kp C_AL_LOCK              &mt (RG(Q)) RG(T)
 &fullscreen        &kp LA(LS(LG(V)))    &kp LG(V)         &kp LG(DOUBLE_QUOTES)  &kp LG(EQUAL)       &kp LG(SINGLE_QUOTE)    &kp C_PLAY_PAUSE  &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &kp RG(R)        &kp RS(RG(L))              &kp RG(W)
                                                           &kp LA(LG(E))          &kp LA(LG(N))       &kp LG(N)               &kp RG(PLUS)      &kp RG(MINUS)         &to 0
             >;
