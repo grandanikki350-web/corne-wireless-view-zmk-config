@@ -176,9 +176,9 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans         &trans          &trans             &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &bt BT_NXT     &kp C_AC_REPLY  &kp RG(BACKSPACE)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans         &trans          &sl 3              &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans         &trans          &trans             &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &bt BT_NXT     &kp C_AC_REPLY  &kp RG(BACKSPACE)  &kp C_GREEN_BUTTON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans         &trans          &sl 3              &trans              &trans
                         &trans  &trans  &trans    &kp K_CANCEL  &kp C_AC_SEND  &to 0
             >;
         };
