@@ -27,13 +27,6 @@
             slow-release;
         };
 
-        mclk {
-            bindings = <&mkp MCLK>;
-            key-positions = <16 13>;
-            layers = <0>;
-            slow-release;
-        };
-
         leftcontrol {
             bindings = <&kp RC(LEFT_ARROW)>;
             key-positions = <40 19>;
